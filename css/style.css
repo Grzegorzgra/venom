@@ -1,0 +1,409 @@
+body {
+    font-family: 'open sans', sans-serif;
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background: #323232;
+}
+
+p {
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.5em;
+    margin: 0 0 15px;
+}
+
+a {
+    transition: 0, 5s;
+    text-decoration: none;
+}
+
+.content {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.topheader {
+    background: #1f1f1f;
+    padding: 18px 0;
+    overflow: hidden;
+}
+
+.topheader .innerheader {
+    overflow: hidden;
+}
+
+.topheader .socialarea {
+    float: left;
+    width: 50%;
+}
+
+.topheader .socialarea ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.topheader .socialarea ul li {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.topheader .socialarea ul li a {
+    background: #6c2525;
+    color: white;
+    width: 35px;
+    height: 27px;
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 50%;
+}
+
+.topheader .socialarea ul li a:hover {
+    background: lightgrey;
+    color: #6c2525;
+
+}
+
+
+.topheader .searcharea {
+    width: 50%;
+    float: right;
+}
+
+.topheader .searcharea form {
+    float: right;
+    width: 300px;
+}
+
+.topheader .searcharea input[type="text"] {
+    background: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    width: 200px;
+    float: left;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.topheader .searcharea input[type="submit"] {
+    background: #6c2525;
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    float: left;
+    width: 80px;
+    border-radius: 0px 7px 7px 0px;
+    cursor: pointer;
+}
+
+.topheader .searcharea input[type="submit"]:hover {
+    background: lightgrey;
+    color: #6c2525;
+}
+
+
+.logoarea {
+    width: 220px;
+    max-width: 100%;
+    margin: 25px auto;
+    text-align: center;
+
+}
+
+.mainmenu {
+    background: #6c2525;
+    height: 52px;
+
+}
+
+.mainmenu ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.mainmenu ul li a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 20px;
+
+}
+
+.mainmenu ul li a:hover {
+    background: lightgrey;
+    color: #6c2525;
+}
+
+
+.sliderarea {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.sliderimg img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.welcome {
+    background: #1f1f1f;
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+    color: white;
+}
+
+.welcome .innerwelcome {
+    overflow: hidden;
+}
+
+.welcome .leftwelcome {
+    width: 46%;
+    float: left;
+    padding: 0 2%;
+}
+
+.welcome .leftwelcome h3 {
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.welcome .leftwelcome p {
+    font-size: 18px;
+}
+
+.welcome .leftwelcome a {
+    background: #6c2525;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.welcome .leftwelcome a:hover {
+    background: lightgrey;
+    color: #6c2525;
+}
+
+
+.welcome .welcomeright {
+    width: 50%;
+    float: right;
+}
+
+.service {
+    background: #323232;
+    padding: 50px 0;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+
+}
+
+/* .service .innersercice {
+    overflow: hidden;
+} */
+
+.service .innersercice h2.title {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.service .innersercice p.subtitle {
+    text-align: center;
+    font-size: 18px;
+}
+
+.service .mainservice {
+
+    width: 100%;
+    margin-top: 20px;
+    display: inline-flex;
+    flex-wrap:wrap;
+
+}
+
+.service .childservice {
+    height: 350px;
+    width: 225px;
+    padding: 90px 60px 80px 105px;
+    float: left;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.service .childservice:hover {
+    background: #5b5b5b;
+    box-shadow: 10px 10px 10px #431717;
+}
+
+.service .childservice h3 {
+    color: #9d6464;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.2;
+    position: absolute;
+    left: 60px;
+    top: 25px;
+}
+
+.service .childservice h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 28px;
+}
+
+.service .childservice h4 a {
+    color: white;
+}
+
+
+.service .childservice p {
+    color: white;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.contact{
+    background-image:url("kontakt.jpg");
+    background-size: cover;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.contact .innercontact{
+    width: 900px;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.contact .innercontact h2.title {
+    text-align: center; font-weight: 400;
+    color: #fff; font-size: 36px;}
+
+.contact .maincontact{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact .maincontact input{
+    background-color: rgb(206, 206, 206);
+    border: 0;
+    width: 42%;
+    margin: 0 1% 2%;
+    padding: 15px 3%;
+    border-radius: 5px;
+    float: left;
+
+}
+.contact .maincontact textarea{
+    background-color: rgb(206, 206, 206);
+    border:0;
+    width: 92%;
+    margin: 0 1% 2%;
+    padding: 15px 3%;
+    border-radius: 5px;
+    min-height: 100px;
+}
+.contact .maincontact input[type="submit"]{
+    background: #6a3144;
+    width: 250px;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact .maincontact input[type="submit"]:hover{
+    background: #97455f;
+    
+}
+
+.footer{ background: #1a1a1a;
+padding:30px 0;
+width: 100%;
+overflow: hidden;}
+
+.footer .innerfooter{overflow: hidden;}
+.footer .footerlogo{width: 420px;
+max-width: 100%;
+margin: 0 auto;
+text-align: center;
+}
+
+.player {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+.player .cover img{
+    width: 80%;
+    float: right;
+    border-radius: 25px 25px 0 0;
+}
+
+.player .music audio{
+    width: 80%;
+    float: right;
+    background-color: black;
+    border-radius: 0 0 25px 25px;
+
+}
+
+
+
